@@ -1,18 +1,4 @@
 
-command! Configs       NERDTree ~/dotfiles
-
-command! Config        tabedit  ~/dotfiles/vim/rc.vim
-command! Commands      tabedit  ~/dotfiles/vim/cmd.vim
-command! Mappings      tabedit  ~/dotfiles/vim/map.vim
-command! Options       tabedit  ~/dotfiles/vim/opt.vim
-
-command! WriteFile     write! %
-command! ReloadVim     source $MYVIMRC 
-command! MakeExe       !chmod +x %
-command! RunExe        !bash %
-
-command! SHScript      !echo -e "#!/bin/bash\n#vi:ft=sh\\\n\\\n" > /tmp/scratch | tabedit /tmp/scratch
-
 " Auto open an close nerdtree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif

@@ -1,5 +1,0 @@
-vimfiles ~/repo/vimfiles
-dotfiles ~/repo/dotfiles
-vim ~/.vim
-vimrc ~/.vimrc
-

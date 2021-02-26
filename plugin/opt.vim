@@ -4,7 +4,7 @@ syntax on
 set nowrap
 set nocompatible        
 set hidden
-set history=50          
+set history=500
 set ruler               
 set noerrorbells        
 set cursorline nocursorcolumn          
@@ -13,19 +13,15 @@ set expandtab
 set number              
 set showcmd ignorecase          
 set smartcase smarttab            
-set autoindent
-set showmode showmatch hlsearch incsearch           
-set title               
+set autoindent shiftwidth=4 ts=4 set title               
 set pastetoggle=<C-P>   
-set wildmenu wildmode=longest:full
 set showcmd shiftwidth=4 softtabstop=4
 set undolevels=1000     
 set backspace=indent,eol,start
 set autochdir
 
 " Coloring scheme
-set background=dark
-colorscheme tomorrow
+set background=dark colorscheme tomorrow
 
 " set statusline=%t\ %m%r%y%=(ascii=\%03.3b,hex=\%02.2B)\ (%l/%L,%c)\ (%P)
 set statusline=%t\ %m%r%y%=[%lL.%cC]\ (%P)
@@ -60,6 +56,3 @@ let g:NERDTreeMinimalUI=1
 let g:NERDTreeCascadeSingleChildDir=1
 let g:NERDTreeCascadeOpenSingleChildDir=1
 let g:NERDTreeAutoDeleteBuffer=1 
-
-let g:airline#extensions#tabline#enabled = 1
-
