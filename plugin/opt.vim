@@ -22,7 +22,7 @@ set autochdir
 
 " Coloring scheme
 set background=dark
-colorscheme tomorrow
+colorscheme koehler
 
 " set statusline=%t\ %m%r%y%=(ascii=\%03.3b,hex=\%02.2B)\ (%l/%L,%c)\ (%P)
 set statusline=%t\ %m%r%y%=[%lL.%cC]\ (%P)
