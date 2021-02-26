@@ -13,7 +13,7 @@ set expandtab
 set number              
 set showcmd ignorecase          
 set smartcase smarttab            
-set autoindent shiftwidth=4 ts=4 set title               
+set autoindent shiftwidth=4 ts=4
 set pastetoggle=<C-P>   
 set showcmd shiftwidth=4 softtabstop=4
 set undolevels=1000     
@@ -21,7 +21,8 @@ set backspace=indent,eol,start
 set autochdir
 
 " Coloring scheme
-set background=dark colorscheme tomorrow
+set background=dark
+colorscheme tomorrow
 
 " set statusline=%t\ %m%r%y%=(ascii=\%03.3b,hex=\%02.2B)\ (%l/%L,%c)\ (%P)
 set statusline=%t\ %m%r%y%=[%lL.%cC]\ (%P)
